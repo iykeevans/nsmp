@@ -54,7 +54,7 @@ export default function Home() {
       </section>
 
       {/* Right */}
-      <section className="bg-gray-400 w-6/12 rounded-2xl relative hidden xl:block min-h-screen outline outline-1">
+      <section className="bg-gray-400 w-6/12 rounded-2xl relative hidden xl:block min-h-screen">
         <Image
           className="rounded-2xl"
           objectFit="cover"
