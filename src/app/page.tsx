@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex py-2 pr-2 h-screen">
+    <main className="flex py-2 pr-2 min-h-screen">
+      {/* Left */}
       <section className="xl:w-6/12 w-full">
         <Navbar />
 
@@ -52,7 +53,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-400 h-full w-6/12 rounded-2xl hidden xl:block relative">
+      {/* Right */}
+      <section className="bg-gray-400 w-6/12 rounded-2xl relative hidden xl:block min-h-screen outline outline-1">
         <Image
           className="rounded-2xl"
           objectFit="cover"
