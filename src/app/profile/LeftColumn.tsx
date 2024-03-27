@@ -7,36 +7,36 @@ const LeftColumn = () => {
       <p className='mb-8'>Lorem ipsum dolor sit amet consectetur. A eu non vitae commodo mattis lorem. Aliquam est pellentesque non arcu sit sit in. Lectus arcu est sed cras vel nulla. Condimentum adipiscing felis nec nunc et nulla sit.</p>
 
       <h4 className='font-bold mb-1'>Types of Services Offered</h4>
-      <div>
-        <button>Feasibility Studies</button>
+      <div className='mb-1'>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>Feasibility Studies</button>
       </div>
-      <div>
-        <button>Installation</button>
+      <div className='mb-1'>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>Installation</button>
       </div>
       <div className='mb-8'>
-        <button>Engineering</button>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>Engineering</button>
       </div>
 
       <h4 className='font-bold mb-1'>Target Market Segments</h4>
-      <div>
-        <button>Residential</button>
+      <div className='mb-1'>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>Residential</button>
       </div>
       <div className='mb-8'>
-        <button>Utility-Scale Projects</button>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>Utility-Scale Projects</button>
       </div>
 
       <h4 className='font-bold mb-1'>Geographic Coverage</h4>
-      <div>
-        <button>South-South (SS)</button>
+      <div className='mb-1'>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>South-South (SS)</button>
+      </div>
+      <div className='mb-1'>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>South-West (SW)</button>
+      </div>
+      <div className='mb-1'>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>North Central (NC)</button>
       </div>
       <div>
-        <button>South-West (SW)</button>
-      </div>
-      <div>
-        <button>North Central (NC)</button>
-      </div>
-      <div>
-        <button>South East (SE)</button>
+        <button className='bg-[#F4F4F4] py-1.5 px-2.5 rounded-lg'>South East (SE)</button>
       </div>
 
     </div>
